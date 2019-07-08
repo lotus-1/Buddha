@@ -52,4 +52,4 @@ CREATE TABLE Group_HC (
 )
 
 
-  COMMIT;
+COMMIT;
