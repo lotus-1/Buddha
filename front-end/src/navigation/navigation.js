@@ -14,7 +14,7 @@ const toolbar = props => {
       <table cellspacing="20">
         <div>
           <div>
-            <img src="/hp-logo.png" alt="hp logo" />
+            <img src="assets/hp-logo.png" alt="hp logo" />
           </div>
           <div className="header">
             Buddha
