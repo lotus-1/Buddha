@@ -1,79 +1,55 @@
 import React from 'react';
-import ReactTable from 'react-table'
+// // import ReactTable from 'react-table'
 import './table.css';
-// import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
-// import '../../node_modules/react-bootstrap-table/css/react-bootstrap-table.css';
-//
-//   class Table extends React.Component {
-//     // constructor(props) {
-//     //   super(props)
-//     // }
-//     render() {
-//       return (
-//         <div>
-//         <BootstrapTable className='table' data={this.props.data}>
-//             <TableHeaderColumn isKey dataField='id'>
-//               ID
-//             </TableHeaderColumn>
-//             <TableHeaderColumn dataField='name'>
-//               Name
-//             </TableHeaderColumn>
-//             <TableHeaderColumn dataField='value'>
-//               Value
-//             </TableHeaderColumn>
-//             </BootstrapTable>
-//         </div>
-//       );
-//     }
-//   }
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
+
 
   class Table extends React.Component {
-  constructor() {
-    super();
+    constructor(props) {
+      super(props)
+    }
+    render() {
+      return (
+        <div>
+        <BootstrapTable className='table1' data={this.props.data}>
+            <TableHeaderColumn isKey dataField='Program'>
+              Program
+            </TableHeaderColumn>
+            <TableHeaderColumn className="tableHeader" dataField='Package ID'>
+              Package ID
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField='Package Level 1'>
+              Package Level 1
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField='Package Level 2'>
+              Package Level 2
+            </TableHeaderColumn>
+              <TableHeaderColumn dataField='Package Level 3'>
+              Package Level 3
+            </TableHeaderColumn>
+             <TableHeaderColumn dataField='Priority'>
+              Priority
+            </TableHeaderColumn>
+           <TableHeaderColumn dataField='Q'>
+              Q
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField='Generic'>
+              Generic
+            </TableHeaderColumn>
+           <TableHeaderColumn dataField='Motivation'>
+              Motivation
+            </TableHeaderColumn>
+           <TableHeaderColumn dataField='Related WT'>
+             Related WT
+            </TableHeaderColumn>
+         <TableHeaderColumn dataField='Related Section'>
+              Related Section
+            </TableHeaderColumn>
+            </BootstrapTable>
+        </div>
+      );
+    }
   }
-  render() {
-    return (
-      <ReactTable
-      columns={[
-        {
-        Header: "Program"
-      },
-      {
-        Header: "Package ID"
-      },
-      {
-        Header: "Package Level 1"
-      },
-      {
-        Header: "Package Level 2"
-      },
-      {
-        Header: "Package Level 3"
-      },
-      {
-        Header: "Priority"
-      },
-      {
-        Header: "Q"
-      },
-      {
-        Header: "Generic"
-      },
-      {
-        Header: "Motivation"
-      },
-      {
-        Header: "Related WT"
-      },
-      {
-        Header: "Related Section"
-      },
-      ]}
-      />
-    )
-  }
-}
-
 
 
 export default Table;

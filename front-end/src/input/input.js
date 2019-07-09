@@ -15,7 +15,7 @@ class Form extends React.Component {
   }
 
   handleChange(event) {
-    
+
   }
 
   render() {
@@ -76,7 +76,7 @@ class Form extends React.Component {
 
 const App = () => {
   return (
-    <div>Good morning
+    <div>
     <Form />
     </div>);
 
