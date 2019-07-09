@@ -1,0 +1,76 @@
+.Add {
+  margin-left: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.Remove {
+  margin-left: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.Split{
+  margin-left: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.CreateFilter{
+  margin-left: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.EditFilter{
+  margin-left: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.boxButton{
+  margin-left: 30%;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 50%;
+}
+img {
+  width: 60px;
+}
