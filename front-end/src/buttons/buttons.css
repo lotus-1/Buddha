@@ -1,5 +1,6 @@
 .Add {
-  margin-left: 30%;
+  margin-left: 15%;
+  margin-top: 2%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -11,7 +12,7 @@
   border-style: none;
 }
 .Remove {
-  margin-left: 30%;
+  margin-left: 1%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -23,7 +24,7 @@
   border-style: none;
 }
 .Split{
-  margin-left: 30%;
+  margin-left: 1%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -35,7 +36,7 @@
   border-style: none;
 }
 .CreateFilter{
-  margin-left: 30%;
+  margin-left: 1%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -47,7 +48,7 @@
   border-style: none;
 }
 .EditFilter{
-  margin-left: 30%;
+  margin-left: 1%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -58,8 +59,10 @@
   font-size: 15px;
   border-style: none;
 }
-.boxButton{
-  margin-left: 30%;
+.boxButton {
+  margin-left: 90%;
+  margin-bottom: 2%;
+  margin-top: 15%;
   text-align: center;
   width: 90px;
   height: 90px;

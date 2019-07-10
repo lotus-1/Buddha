@@ -4,6 +4,7 @@ import Header from "./header/header.js";
 import DropDownItem from "./dropDown/dropDown.js"
 import Buttons from "./buttons/buttons.js";
 import Form from "./input/input.js";
+import ProgramTable from "./table/table.js";
 import "./AllContentPackages.css";
 
 class Home extends React.Component {
@@ -14,6 +15,7 @@ class Home extends React.Component {
         <Header />
         <DropDownItem />
         <Form />
+        <ProgramTable />
         <Buttons />
       </div>
     );

@@ -11,7 +11,7 @@ const navigatorsArray = [
 const toolbar = props => {
   return (
     <Sidebar>
-      <table cellspacing="20">
+      <table cellspacing="20" className="navigationMenu">
         <div>
           <div>
             <img src="assets/hp-logo.png" alt="hp logo" />
