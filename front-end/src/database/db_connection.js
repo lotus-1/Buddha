@@ -3,14 +3,14 @@ const { Pool } = require('pg');
 const url = require('url');
 require('dotenv').config();
 
-let DB_URL = process.env.DB_URL;
+let dbUrl = process.env.DB_URL;
 
 if (process.env.NODE_ENV === "test") {
-  DB_URL = process.env.TEST_DB_URL;
+  dbUrl = process.env.TEST_DB_URL;
 }
-if (!DB_URL) throw new Error("Enviroment variable DB_URL must be set");
+if (!dbUrl) throw new Error("Enviroment variable DB_URL must be set");
 
-const params = url.parse(DB_URL);
+const params = url.parse(dbUrl);
 const [username, password] = params.auth.split(':');
 
 const options = {
