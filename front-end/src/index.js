@@ -1,5 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Home from "./AllContentPackages";
+import React from 'react';
+import ReactDom from 'react-dom';
+// import ReactTable from 'react-table';
+// import 'react-dom/react-table.css';
 
-ReactDOM.render(<Home />, document.getElementById("root"));
+
+const TryFunction = () => {
+  return (<div>Hello world!</div>);
+
+}
+
+
+ReactDom.render(
+  <TryFunction />,
+  document.getElementById('root')
+);
