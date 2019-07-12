@@ -16,14 +16,41 @@ DROP TABLE IF EXISTS head_count CASCADE;
 -- )
 
 -- This table is for team-2 to do
--- CREATE TABLE content_package (
---
--- )
+CREATE TABLE content_package (
+  package_id SERIAL PRIMARY KEY,
+  program_id INTEGER NOT NULL,
+  package_level_1 TEXT NOT NULL,
+  package_level_2 TEXT NOT NULL,
+  package_level_3
+  priorty INTEGER LIMIT (10),
+  related_wt TEXT NOT NULL,
+  package_status
+  generic
+  year
+  Q419_flag
+
+  Q
+  motivation
+  related_sections
+)
 
 CREATE TABLE group (
   group_id SERIAL PRIMARY KEY,
   subject VARCHAR(100) NOT NULL
   -- active
+)
+
+CREATE TABLE work_team (
+  wt_id SERIAL PRIMARY KEY,
+  wt_name VARCHAR(100) NOT NULL,
+  wt_leader VARCHAR(100) NOT NULL,
+  sponser TEXT NOT NULL,
+  -- active
+  wt_program_focus TEXT NOT NULL,
+  group TEXT NOT NULL,
+  sponsor_lab TEXT NOT NULL,
+  sponsors_section TEXT NOT NULL,
+  sponsors_department TEXT NOT NULL
 )
 
 -- This table is for team-2 to do
