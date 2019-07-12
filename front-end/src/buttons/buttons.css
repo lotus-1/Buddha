@@ -1,4 +1,4 @@
-.Add {
+.add {
   margin-left: 15%;
   margin-top: 2%;
   text-align: center;
@@ -11,7 +11,7 @@
   font-size: 15px;
   border-style: none;
 }
-.Remove {
+.remove {
   margin-left: 1%;
   text-align: center;
   width: 120px;
@@ -23,7 +23,7 @@
   font-size: 15px;
   border-style: none;
 }
-.Split{
+.split {
   margin-left: 1%;
   text-align: center;
   width: 120px;
@@ -35,7 +35,7 @@
   font-size: 15px;
   border-style: none;
 }
-.CreateFilter{
+.createFilter {
   margin-left: 1%;
   text-align: center;
   width: 120px;
@@ -47,7 +47,7 @@
   font-size: 15px;
   border-style: none;
 }
-.EditFilter{
+.editFilter {
   margin-left: 1%;
   text-align: center;
   width: 120px;

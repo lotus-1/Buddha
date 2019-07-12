@@ -2,26 +2,22 @@ import React from "react";
 import "./buttons.css";
 
 class Buttons extends React.Component {
+
+  onClick() {
+  }
+
   render() {
     return (
       <div>
-        <button className="Add" onClick="">
+        <button className="add" onClick={() => this.onClick()}>
           ADD CP
         </button>
-        <button className="Remove" onClick="">
-          Remove CP
-        </button>
-        <button className="Split" onClick="">
-          Split CP
-        </button>
-        <button className="CreateFilter" onClick="">
-          Create Filter
-        </button>
-        <button className="EditFilter" onClick="">
-          Edit Filter
-        </button>
-        <button className="boxButton" onClick="">
-          <img src="assets/box-icon.png" alt="Box-Button"/>
+        <button className="remove">Remove CP</button>
+        <button className="split">Split CP</button>
+        <button className="createFilter">Create Filter</button>
+        <button className="editFilter">Edit Filter</button>
+        <button className="boxButton">
+          <img src="assets/box-icon.png" alt="Box-Button" />
         </button>
       </div>
     );

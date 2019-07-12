@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/react": "^8.0.4",
     "bootstrap-table": "^1.15.2",
     "react": "^16.8.6",
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "react-sidebar": "^3.0.2"
+    "react-sidebar": "^3.0.2",
+    "react-test-renderer": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -11,26 +11,34 @@ const navigatorsArray = [
 const toolbar = props => {
   return (
     <Sidebar>
-      <table cellspacing="20" className="navigationMenu">
-        <div>
-          <div>
-            <img src="assets/hp-logo.png" alt="hp logo" />
-          </div>
+      <table cellSpacing="20" className="navigationMenu">
+        <tbody>
+          <img src="assets/hp-logo.png" alt="hp logo" />
           <div className="header">
             Buddha
             <br /> System
           </div>
-        </div>
-        <tr>
-          {navigatorsArray.map(el => (
-            <th className="navigatorRow">
-              <a href="/">{el}</a>
-            </th>
-          ))}
-        </tr>
+          <tr>
+          <th className="navigatorRow">
+            <a href="/">{navigatorsArray[0]}</a>
+          </th>
+          <th className="navigatorRow">
+            <a href="/">{navigatorsArray[1]}</a>
+          </th>
+          <th className="navigatorRow">
+            <a href="/">{navigatorsArray[2]}</a>
+          </th>
+          </tr>
+        </tbody>
       </table>
     </Sidebar>
   );
 };
 
 export default toolbar;
+
+// {navigatorsArray.map(el => (
+//   <th className="navigatorRow">
+//     <a href="/">{el}</a>
+//   </th>
+// ))}

@@ -1,11 +1,10 @@
 form {
   padding-left: 13%;
   font-family: sans-serif;
-
 }
 input {
   border-style: none;
   width: 20%;
-  height: 30px;
-  margin: 1%;
+  height: 35px;
+  margin: 1.2%;
 }
