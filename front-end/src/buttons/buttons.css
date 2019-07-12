@@ -1,0 +1,79 @@
+.add {
+  margin-left: 15%;
+  margin-top: 2%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.remove {
+  margin-left: 1%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.split {
+  margin-left: 1%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.createFilter {
+  margin-left: 1%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.editFilter {
+  margin-left: 1%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.boxButton {
+  margin-left: 90%;
+  margin-bottom: 2%;
+  margin-top: 15%;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 50%;
+}
+img {
+  width: 60px;
+}
