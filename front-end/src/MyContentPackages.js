@@ -1,8 +1,8 @@
 import React from 'react';
 import Toolbar from './navigation/navigation.js';
-import Input from './input/input.js';
-import Table from './table/table.js';
-import ButtonItem from './buttons/buttons.js'
+import Input from './input/myInput.js';
+import MyTable from './table/myTable.js';
+import MyButton from './buttons/myButtons.js'
 import DropDownItem from "./dropDown/dropDown.js"
 import "./MyContentPackages.css";
 
@@ -13,9 +13,12 @@ class SecondPage extends React.Component {
     <Toolbar />
     <DropDownItem />
     <Input />
-    <Table />
-    <ButtonItem name='WT Allocation Summury' variant="blue"/>
-    <ButtonItem name="CP's Summury" variant="light"/>
+    <MyTable />
+    <MyButton name='WT Allocation Summury' variant="blue"/>
+    <MyButton name="CP's Summury" variant="light"/>
+    <button className="boxButton" onClick="">
+       <img className="boxImage" src="assets/box-icon.png" alt="Box-Button"/>
+     </button>
       </div>
     );
 }

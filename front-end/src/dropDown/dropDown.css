@@ -2,10 +2,10 @@
   font-family: sans-serif;
   background-color: #fff;
   margin-left: 86%;
-  width: 12%;
-  height: 3%;
-  position: fixed;
-  margin-top: -80px;
+  width: 8%;
+  height: 2.8%;
+  position: absolute;
+  top: 2%;
 }
 
 .dropdown-label {
@@ -14,8 +14,9 @@
 
 .dropdown-label {
   position: relative;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
+  text-align: inherit;
 }
 
 .dropdown-label:after {
@@ -79,15 +80,15 @@
 }
 .workTeamIcon {
   position: fixed;
-  width: 1%;
+  width: 1.1%;
   filter: blur();
-  margin-left: 79.8%;
-  margin-top: -75px;
+  margin-left: 79.6%;
+  top: 2.5%;
 }
 p {
   position: fixed;
   margin-left: 81%;
-  top: 0px;
+  top: 1%;
   margin-top: 15px;
  font-size: 17px;
  font-family: sans-serif;
