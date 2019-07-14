@@ -9,7 +9,6 @@ class DropdownItem extends React.Component {
       </li>
     );
   }
-  teamLogo;
 }
 
 class DropdownMenu extends React.Component {
@@ -43,7 +42,7 @@ class Dropdown extends React.Component {
   }
 
   render() {
-    var className = "dropdown-container";
+    let className = "dropdown-container";
 
     if (this.props.className) {
       className += " " + this.props.className;
