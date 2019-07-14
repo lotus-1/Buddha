@@ -1,4 +1,3 @@
-//add, update, remove,להגדיל את נפח הפרוייקט
 const tape = require("tape");
 const buildDB = require("../../../buddha-system/src/database/db_build.sql");
 const addContentPackage = require("../../../buddha-system/src/database/queries/addContentPackageQueries");
