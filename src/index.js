@@ -1,8 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import Home from "./front-end/AllContentPackages";
+import Home from "./front-end/AllContentPackages";
 import SecondPage from "./front-end/MyContentPackages";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-// ReactDOM.render(<Home />, document.getElementById("root"));
+class Root extends React.Component {
+  render() {
 
-ReactDOM.render(<SecondPage />, document.getElementById("root"));
+  return (
+  <Router>
+  <Switch>
+  <Route exact path="/" component={Home} />
+  <Route exact path="/secondPage" component={SecondPage} />
+  </Switch>
+</Router>
+);
+};
+};
+ReactDOM.render(<Root />, document.getElementById("root"));
