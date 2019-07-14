@@ -5,6 +5,7 @@
   "dependencies": {
     "@testing-library/react": "^8.0.4",
     "bootstrap-table": "^1.15.2",
+    "express": "^4.17.1",
     "react": "^16.8.6",
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.8.6",
@@ -32,5 +33,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:3000/"
 }
