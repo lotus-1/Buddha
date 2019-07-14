@@ -1,5 +1,5 @@
-const tape = require('tape');
-const dbConnection = require('')
+const tape = require("tape");
+const dbConnection = require("../../../buddha-system/src/database/queries/contentPackagrQueries.js");
 
 const expected = {
   package_id: 14682354,
@@ -12,7 +12,7 @@ const expected = {
   package_status: "inactive",
   generic: "yes",
   year: 1988,
-  Q4\'19_flag: "Q4'19_flag"
+  Q419_flag: "Q4'19_flag"
 };
 test("test add project function", t => {
   dbConnection((err, res) => {
