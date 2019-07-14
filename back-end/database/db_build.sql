@@ -2,9 +2,9 @@ BEGIN;
 
 DROP TABLE IF EXISTS program CASCADE;
 DROP TABLE IF EXISTS content_package CASCADE;
-DROP TABLE IF EXISTS group CASCADE;
+DROP TABLE IF EXISTS department CASCADE;
 DROP TABLE IF EXISTS work_team CASCADE;
-DROP TABLE IF EXISTS head_count CASCADE;
+DROP TABLE IF EXISTS employee CASCADE;
 
 -- This table need to be finished in the next sprint
 -- CREATE TABLE program (
@@ -20,18 +20,19 @@ DROP TABLE IF EXISTS head_count CASCADE;
 --
 -- )
 
-CREATE TABLE group (
-  group_id SERIAL PRIMARY KEY,
-  subject VARCHAR(100) NOT NULL
-  -- active
-)
+CREATE TABLE department (
+  department_id SERIAL PRIMARY KEY,
+  subject VARCHAR(100) NOT NULL,
+  work_team_name VARCHAR(100) NOT NULL,
+  employee_name VARCHAR(100) NOT NULL
+);
 
 -- This table is for team-2 to do
 -- CREATE TABLE work_team (
 --
 -- )
 
-CREATE TABLE head_count (
+CREATE TABLE employee (
   lab TEXT NOT NULL,
   section TEXT NOT NULL,
   department TEXT NOT NULL,
@@ -39,17 +40,17 @@ CREATE TABLE head_count (
   cost_center INTEGER NOT NULL,
   employee_id INTEGER UNIQUE NOT NULL,
   employee_name TEXT NOT NULL,
-  employee_%_job FLOAT CHECK(employee_%_job BETWEEN 0 AND 100),
+  employee_percent_job FLOAT CHECK(employee_percent_job BETWEEN 0 AND 100),
   resource_type TEXT NOT NULL,
   overhead TEXT NOT NULL,
   sw_role TEXT NOT NULL
-)
+);
 
-CREATE TABLE Group_HC (
-  group_id INTEGER REFERENCES group(id)
-  employee_id INTEGER REFERENCES employee(id)
+CREATE TABLE department_employee (
+  department_id INTEGER REFERENCES department(department_id),
+  employee_id INTEGER REFERENCES employee(employee_id)
   -- % job
-)
+);
 
 
 COMMIT;
