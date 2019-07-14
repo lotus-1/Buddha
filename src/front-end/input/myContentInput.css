@@ -1,0 +1,40 @@
+.form {
+color: gray;
+font-family: sans-serif;
+display: inline;
+}
+.box {
+  padding: 4px;
+  position: relative;
+}
+.program {
+  position: absolute;
+  left: 15%;
+  top: 17%;
+}
+.priority{
+  position: absolute;
+  left: 30%;
+  top: 17%;
+}
+ .packageLevel1{
+   position: absolute;
+   left: 45%;
+   top: 15%;
+}
+
+.packageLevel2{
+  position: absolute;
+  left: 15%;
+  top: 21%;
+}
+.relatedWT{
+  position: absolute;
+  left: 30%;
+  top: 21%;
+}
+.relatedSection{
+  position: absolute;
+  left: 45%;
+  top: 21%;
+}

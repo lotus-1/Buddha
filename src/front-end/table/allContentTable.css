@@ -1,0 +1,21 @@
+.table {
+  margin-left: 13%;
+  width: 86%;
+  margin-top: 2%;
+}
+.checkboxcolumn {
+  width: 1.5%;
+}
+.checkbox {
+  width: 80%;
+}
+th {
+  color: #19334d;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: #c1d0f0;
+}
+td {
+  background-color: white;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.header {
+  padding-left: 45%;
+  margin-top: -80px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #e6e6ff;
+  font-weight: bold;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+  color: #e6e6ff;
+}
+.navigationMenu {
+  background-color: #31669b;
+  padding-bottom: 33.5%;
+  width: 13%;
+}
+.navigatorRow {
+  background-color: #19334d;
+  font-family: sans-serif;
+  font: Arial;
+  line-height: 50px;
+  display: block;
+  margin: 15px -20px 15px -20px;
+  border-left: 8px solid #e6e6ff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+img {
+  width: 35%;
+  filter: brightness(0.5) invert(1);
+}

@@ -6,7 +6,7 @@ test('Tape is working', t => {
   t.end();
 });
 
-const expected = {
+const data = {
   lab : 'lab 1',
   section : 'section 1',
   department : 'department 1',
@@ -21,10 +21,9 @@ const expected = {
 test('testing addEmployee function', t => {
   runDBbuild((err, res) => {
     t.error(err, 'No Error');
-    const addEmployee = expected;
-      (err, result) => {
+    addEmployee (data, (err, result) => {
         if (err) console.log(err);
-        t.deepEqual(result, true, 'Retun true : actual and expected are match');
+        t.deepEqual(result, true, 'Retun true when adding emploee to the table');
         t.end();
       };
   });
