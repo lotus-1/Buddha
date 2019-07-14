@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
-import './myButtons.css';
-class MyButton extends React.Component {
+import './myContentButtons.css';
+class Buttons extends React.Component {
 render() {
   const {
     name,
@@ -14,4 +14,4 @@ render() {
   );
 }
 }
-export default MyButton;
+export default Buttons;

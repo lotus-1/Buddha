@@ -31,6 +31,7 @@ const toolbar = props => {
             <a href="/">{navigatorsArray[2]}</a>
           </th>
           </tr>
+          </div>
       </table>
     </Sidebar>
 

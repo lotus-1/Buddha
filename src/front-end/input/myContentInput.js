@@ -1,5 +1,5 @@
-import React from 'react';
-import './myInput.css';
+import React from "react";
+import './myContentInput.css';
 
 class MyForm extends React.Component {
   constructor(props) {

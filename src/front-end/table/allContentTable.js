@@ -1,5 +1,5 @@
 import React from "react";
-import "./table.css";
+import "./allContentTable.css";
 
 class ProgramTable extends React.Component {
   render() {

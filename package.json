@@ -1,5 +1,5 @@
 {
-  "name": "front-end",
+  "name": "Buddha",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,10 +14,9 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-select": "^3.0.4",
-    "react-table": "^6.10.0"
+    "react-table": "^6.10.0",
     "react-sidebar": "^3.0.2",
     "react-test-renderer": "^16.8.6"
-
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +38,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "hp-oranBit Project",
+  "main": "src/front-end/index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotus-1/Buddha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotus-1/Buddha/issues"
+  },
+  "homepage": "https://github.com/lotus-1/Buddha#readme"
 }
