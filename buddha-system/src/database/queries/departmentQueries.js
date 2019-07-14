@@ -10,16 +10,16 @@ const createDepartment = (data, cb) => {
 };
 
 const addWorkTeamToDepartment = (data, cb) => {
-  dbConfiguration.query(`INSERT INTO department (work_team_name) VALUES ($1)`,
-  [data.work_team_name], (err, res) => {
+  dbConfiguration.query(`INSERT INTO department (work_team_name) VALUES ($1) WHERE subject = ($2)`,
+  [data.work_team_name, data.subject], (err, res) => {
     if (err) return cb(err);
     cb(null, true);
   });
 };
 
 const addEmployeeToDepartment = (data, cb) => {
-  dbConfiguration.query(`INSERT INTO department (employee_name) VALUES ($2)`,
-  [data.employee_name], (err, res) => {
+  dbConfiguration.query(`INSERT INTO department (employee_name) VALUES ($2) WHERE subject = ($2)`,
+  [data.employee_name, data.subject], (err, res) => {
     if (err) return cb(err);
     cb(null, true);
   });
