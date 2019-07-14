@@ -1,0 +1,19 @@
+.table {
+  margin-left: 14%;
+  width: 46%;
+  margin-top: 15%;
+  position: absolute;
+  height: 25%;
+  text-align: center;
+}
+.column {
+  color: #19334d;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: #c1d0f0;
+  text-align: center;
+}
+td {
+background-color: white;
+text-align: center;
+}
