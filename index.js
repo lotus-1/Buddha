@@ -25,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <h1>hello world !<h1>
         <p className="App-intro">{this.state.data}</p>
       </div>
     );
