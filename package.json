@@ -15,6 +15,7 @@
     "react-scripts": "3.0.1",
     "react-select": "^3.0.4",
     "react-table": "^6.10.0",
+    "express": "^4.17.1",
     "react-sidebar": "^3.0.2",
     "react-test-renderer": "^16.8.6"
   },
@@ -52,4 +53,5 @@
     "url": "https://github.com/lotus-1/Buddha/issues"
   },
   "homepage": "https://github.com/lotus-1/Buddha#readme"
+  "proxy": "http://localhost:3000/"
 }
