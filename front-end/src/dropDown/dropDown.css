@@ -57,14 +57,14 @@
   transition: max-height 300ms ease-in-out;
   list-style: none;
   padding: 0;
-
 }
 
 .dropdown-select.open {
   position: fixed;
   max-height: 50px;
-  width: 12.5%;
+  width: 12%;
   margin-left: 86.5%;
+  margin-top: 0.2%;
 }
 
 .dropdown-option {
@@ -90,6 +90,6 @@ p {
   margin-left: 81%;
   top: 1%;
   margin-top: 15px;
- font-size: 17px;
- font-family: sans-serif;
+  font-size: 17px;
+  font-family: sans-serif;
 }

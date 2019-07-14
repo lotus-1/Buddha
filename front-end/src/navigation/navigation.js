@@ -20,38 +20,21 @@ const toolbar = props => {
             Buddha
             <br /> System
           </div>
-        </div>
-        <tr>
-        <th className="navigatorRow">
-
-                   <a href="/">{navigatorsArray[0]}</a>
-                 </th>
-                 <th className="navigatorRow">
-                   <a href="/secondPage">{navigatorsArray[1]}</a>
-                 </th>
-                 <th className="navigatorRow">
-                   <a href="/">{navigatorsArray[2]}</a>
-                 </th>
-        </tr>
+          <tr>
+          <th className="navigatorRow">
+            <a href="/">{navigatorsArray[0]}</a>
+          </th>
+          <th className="navigatorRow">
+            <a href="/">{navigatorsArray[1]}</a>
+          </th>
+          <th className="navigatorRow">
+            <a href="/">{navigatorsArray[2]}</a>
+          </th>
+          </tr>
       </table>
-
     </Sidebar>
 
   );
 };
 
 export default toolbar;
-// {navigatorsArray.map(el => (
-//   <th className="navigatorRow">
-//     <a href="/">{el}</a>
-//   </th>
-// ))}
-
-// import Home from "../AllContentPackages";
-// import SecondPage from "../MyContentPackages";
-// import { Link } from 'react-router-dom';
-// import { Route, Switch } from 'react-router';
-//   <Switch>
-// <Route path='/' component={Home} />
-// <Route path='/secondPage' component={SecondPage} />
-// </Switch>

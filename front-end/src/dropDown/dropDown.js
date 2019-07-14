@@ -4,8 +4,7 @@ import "./dropDown.css";
 class DropdownItem extends React.Component {
   render() {
     return (
-      <li className="dropdown-option"
-      onClick={this.props.click}>
+      <li className="dropdown-option" onClick={this.props.click}>
         {this.props.label}
       </li>
     );
@@ -71,7 +70,11 @@ class Dropdown extends React.Component {
 const DropDownItem = () => {
   return (
     <div>
-      <img className="workTeamIcon" src="assets/workteamicon.png" alt="teamwork" />
+      <img
+        className="workTeamIcon"
+        src="assets/workteamicon.png"
+        alt="teamwork"
+      />
       <p>Work Team:</p>
       <Dropdown label="All">
         <DropdownItem label="test 1" value="Number 1" />
