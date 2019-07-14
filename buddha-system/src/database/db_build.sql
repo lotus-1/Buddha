@@ -56,7 +56,7 @@ CREATE TABLE employee (
   resource_type TEXT NOT NULL,
   overhead TEXT NOT NULL,
   sw_role TEXT NOT NULL
-)
+);
 
 CREATE TABLE department_employee (
   department_id INTEGER REFERENCES department(department_id)
