@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "react-sidebar";
 import "./navigation.css";
 
@@ -22,13 +23,13 @@ const toolbar = props => {
           </div>
           <tr>
           <th className="navigatorRow">
-            <a href="/">{navigatorsArray[0]}</a>
+            <Link to="/">{navigatorsArray[0]}</Link>
           </th>
           <th className="navigatorRow">
-            <a href="/">{navigatorsArray[1]}</a>
+            <Link to="/secondPage">{navigatorsArray[1]}</Link>
           </th>
           <th className="navigatorRow">
-            <a href="/">{navigatorsArray[2]}</a>
+            <Link to="/">{navigatorsArray[2]}</Link>
           </th>
           </tr>
           </div>
