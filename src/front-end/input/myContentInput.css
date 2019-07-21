@@ -1,10 +1,12 @@
 .form {
-color: gray;
-font-family: sans-serif;
-display: inline;
+  color: gray;
+  font-family: sans-serif;
+  display: inline;
 }
 .box {
-  padding: 4px;
+  padding: 10px;
+  height: 100%;
+  width: 120%;
   position: relative;
 }
 .program {
@@ -12,29 +14,46 @@ display: inline;
   left: 15%;
   top: 17%;
 }
-.priority{
+.priority {
   position: absolute;
-  left: 30%;
+  left: 39%;
   top: 17%;
 }
- .packageLevel1{
-   position: absolute;
-   left: 45%;
-   top: 15%;
+.package-Level-1 {
+  position: absolute;
+  left: 63%;
+  top: 15%;
 }
-
-.packageLevel2{
+.package-Level-2 {
   position: absolute;
   left: 15%;
   top: 21%;
 }
-.relatedWT{
+.related-WT {
   position: absolute;
+  left: 40%;
+  top: 21%;
+}
+.related-Section {
+  position: absolute;
+  left: 63%;
+  top: 21%;
+}
+input {
+  border-style: none;
+  width: 20%;
+  height: 35px;
+  margin: 1.2%;
   left: 30%;
-  top: 21%;
 }
-.relatedSection{
-  position: absolute;
-  left: 45%;
-  top: 21%;
+
+/* .form {
+  padding-left: 13%;
+  font-family: sans-serif;
 }
+input {
+  border-style: none;
+  width: 20%;
+  height: 35px;
+  margin: 1.2%;
+} */
