@@ -10,11 +10,12 @@
 a {
   text-decoration: none;
   color: #e6e6ff;
+  padding-left: 2%;
 }
 .navigationMenu {
   background-color: #31669b;
   padding-bottom: 33.5%;
-  width: 13%;
+  width: 14%;
 }
 .navigatorRow {
   background-color: #19334d;
@@ -22,11 +23,13 @@ a {
   font: Arial;
   line-height: 50px;
   display: block;
-  margin: 15px -20px 15px -20px;
+  margin: 10px -215px 10px -30px;
   border-left: 8px solid #e6e6ff;
   text-align: left;
   font-size: 20px;
   font-weight: 400;
+position: relative;
+padding-left: 3%;
 }
 
 img {

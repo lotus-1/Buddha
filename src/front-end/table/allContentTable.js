@@ -5,7 +5,7 @@ class ProgramTable extends React.Component {
   render() {
     return (
       <div>
-        <table className="table">
+        <table className="allContentTable">
         <tbody>
           <tr>
             <th className="checkboxcolumn" />

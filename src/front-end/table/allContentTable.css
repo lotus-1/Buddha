@@ -1,13 +1,17 @@
-.table {
-  margin-left: 13%;
-  width: 86%;
-  margin-top: 2%;
+.allContentTable {
+  /* table-layout: auto; */
+  margin-left: 15%;
+  position: absolute;
+  top: 30%;
+  width: 83%;
+  height: 15%;
 }
 .checkboxcolumn {
-  width: 1.5%;
+  width: 4%;
 }
 .checkbox {
-  width: 80%;
+  width: 40%;
+  
 }
 th {
   color: #19334d;

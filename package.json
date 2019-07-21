@@ -52,6 +52,6 @@
   "bugs": {
     "url": "https://github.com/lotus-1/Buddha/issues"
   },
-  "homepage": "https://github.com/lotus-1/Buddha#readme"
+  "homepage": "https://github.com/lotus-1/Buddha#readme",
   "proxy": "http://localhost:3000/"
 }
