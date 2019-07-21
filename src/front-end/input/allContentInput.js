@@ -18,19 +18,21 @@ class Form extends React.Component {
   render() {
     return (
       <form>
-        <label>{this.state.lable1}</label>
-        <input type="text" onChange={this.handleChange} />
-        <label>{this.state.lable2}</label>
-        <input type="text" onChange={this.handleChange} />
-        <label>{this.state.lable3}</label>
-        <input type="text" onChange={this.handleChange} />
-        <br />
-        <label>{this.state.lable4} </label>
-        <input type="text" onChange={this.handleChange} />
-        <label>{this.state.lable5}</label>
-        <input type="text" onChange={this.handleChange} />
-        <label>{this.state.lable6}</label>
-        <input type="text" onChange={this.handleChange} />
+        <div>
+          <label>{this.state.lable1}</label>
+          <input type="text" onChange={this.handleChange} />
+          <label>{this.state.lable2}</label>
+          <input type="text" onChange={this.handleChange} />
+          <label>{this.state.lable3}</label>
+          <input type="text" onChange={this.handleChange} />
+          <br />
+          <label>{this.state.lable4} </label>
+          <input type="text" onChange={this.handleChange} />
+          <label>{this.state.lable5}</label>
+          <input type="text" onChange={this.handleChange} />
+          <label>{this.state.lable6}</label>
+          <input type="text" onChange={this.handleChange} />
+        </div>
       </form>
     );
   }
