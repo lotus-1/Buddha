@@ -28,10 +28,9 @@ a {
   text-align: left;
   font-size: 20px;
   font-weight: 400;
-position: relative;
-padding-left: 3%;
+  position: relative;
+  padding-left: 3%;
 }
-
 img {
   width: 35%;
   filter: brightness(0.5) invert(1);
