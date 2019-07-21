@@ -1,0 +1,27 @@
+#btn {
+  display: inline;
+  padding: 25px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+.blue {
+  color: CornflowerBlue;
+  position: absolute;
+  left: 15%;
+  top: 25px;
+  width: 9%;
+  height: 8%;
+  text-align: center;
+}
+.light {
+  color: gray;
+  position: absolute;
+  left: 25%;
+  top: 25px;
+  width: 9%;
+  height: 8%;
+  text-align: center;
+}

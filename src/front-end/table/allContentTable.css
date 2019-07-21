@@ -1,0 +1,25 @@
+.allContentTable {
+  /* table-layout: auto; */
+  margin-left: 15%;
+  position: absolute;
+  top: 30%;
+  width: 83%;
+  height: 15%;
+}
+.checkboxcolumn {
+  width: 4%;
+}
+.checkbox {
+  width: 40%;
+  
+}
+th {
+  color: #19334d;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: #c1d0f0;
+}
+td {
+  background-color: white;
+  text-align: center;
+}
