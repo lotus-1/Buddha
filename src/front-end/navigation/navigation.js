@@ -22,20 +22,19 @@ const toolbar = props => {
             <br /> System
           </div>
           <tr>
-          <th className="navigatorRow">
-            <Link to="/">{navigatorsArray[0]}</Link>
-          </th>
-          <th className="navigatorRow">
-            <Link to="/secondPage">{navigatorsArray[1]}</Link>
-          </th>
-          <th className="navigatorRow">
-            <Link to="/">{navigatorsArray[2]}</Link>
-          </th>
+            <th className="navigatorRow">
+              <Link to="/">{navigatorsArray[0]}</Link>
+            </th>
+            <th className="navigatorRow">
+              <Link to="/secondPage">{navigatorsArray[1]}</Link>
+            </th>
+            <th className="navigatorRow">
+              <Link to="/">{navigatorsArray[2]}</Link>
+            </th>
           </tr>
-          </div>
+        </div>
       </table>
     </Sidebar>
-
   );
 };
 
