@@ -1,7 +1,7 @@
 const dbConnection = require('../db_connection.js');
 
 const createDepartment = (data, cb) => {
-  dbConfiguration.query(`INSERT INTO department
+  dbConnection.query(`INSERT INTO department
     (subject) VALUES ($1)`,
     [data.subject], (err, res) => {
       if (err) return cb(err);
@@ -10,7 +10,7 @@ const createDepartment = (data, cb) => {
 };
 
 const addWorkTeamToDepartment = (data, cb) => {
-  dbConfiguration.query(`INSERT INTO department (work_team_name) VALUES ($1) WHERE subject = ($2)`,
+  dbConnection.query(`INSERT INTO department (work_team_name) VALUES ($1) WHERE subject = ($2)`,
   [data.work_team_name, data.subject], (err, res) => {
     if (err) return cb(err);
     cb(null, true);
@@ -18,7 +18,7 @@ const addWorkTeamToDepartment = (data, cb) => {
 };
 
 const addEmployeeToDepartment = (data, cb) => {
-  dbConfiguration.query(`INSERT INTO department (employee_name) VALUES ($2) WHERE subject = ($2)`,
+  dbConnection.query(`INSERT INTO department (employee_name) VALUES ($2) WHERE subject = ($2)`,
   [data.employee_name, data.subject], (err, res) => {
     if (err) return cb(err);
     cb(null, true);
