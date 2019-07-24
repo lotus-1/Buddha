@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Toolbar from "./navigation/navigation.js";
 import MyInput from "./input/myContentInput.js";
 import MyTable from "./table/myContentTable.js";
@@ -14,8 +15,10 @@ class SecondPage extends React.Component {
         <DropDownItem />
         <MyInput />
         <MyTable />
-        <BuddhaButton name="WT Allocation Summury" variant="blue" />
-        <BuddhaButton name="CP's Summury" variant="light" />
+        <BuddhaButton name="WT Allocation Summary" variant="blue" />
+        <Link to="/cpSummary">
+        <BuddhaButton name="CP's Summary" variant="light"/>
+        </Link>
         <button className="boxButton" onClick="">
           <img
             className="boxImage"
