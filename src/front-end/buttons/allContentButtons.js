@@ -1,25 +1,37 @@
 import React from "react";
 import "./allContentButtons.css";
+// import "../back-end/database/queries/contentPackagesQueries";
+import "../AllContentPackages.js";
 
 class Buttons extends React.Component {
-
-  onClick() {
-  }
+  onSubmit = e => {
+    e.preventDefault();
+    if (e.onClick) return this.addContentPackage();
+    // console.log(this.state);
+  };
 
   render() {
     return (
-      <div>
-        <button className="add" onClick={() => this.onClick()}>
+      <form>
+        <button className="add" onClick={e => this.onSubmit(e)}>
           ADD CP
         </button>
-        <button className="remove">Remove CP</button>
-        <button className="split">Split CP</button>
+        <button className="remove" onClick={() => this.removeCP()}>
+          Remove CP
+        </button>
+        <button className="split" onClick={() => this.splitCP()}>
+          Split CP
+        </button>
         <button className="createFilter">Create Filter</button>
         <button className="editFilter">Edit Filter</button>
         <button className="boxButtonSide">
-          <img className="boxButtonImg" src="assets/box-icon.png" alt="Box-Button" />
+          <img
+            className="boxButtonImg"
+            src="assets/box-icon.png"
+            alt="Box-Button"
+          />
         </button>
-      </div>
+      </form>
     );
   }
 }

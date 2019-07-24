@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import { create } from "react-test-renderer";
-import { cleanup } from '@testing-library/react';
-import 'jest-dom/extend-expect';
+import { cleanup } from "@testing-library/react";
+import "jest-dom/extend-expect";
 
-import Button from './buttons.js';
+import Buttons from "./allContentButtons.js";
 
 afterEach(cleanup);
-describe(' checking if buttons are working', () => {
- test('Button component is working and matching snapshots', () => {
-   const button = create(<Button name="test for btn 1"/>);
-   expect(button.toJSON()).toMatchSnapshot();
- });
+describe(" checking if buttons are working", () => {
+  test("Button component is working and matching snapshots", () => {
+    const button = create(<Buttons name="test for btn 1" />);
+    expect(button.toJSON()).toMatchSnapshot();
+  });
 });
