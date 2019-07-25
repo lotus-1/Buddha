@@ -4,7 +4,6 @@ import Toolbar from "./navigation/navigation.js";
 import MyHeader from "./header/cpSummaryHeader.js";
 import CpSummaryTable from "./table/cpSummaryTable.js";
 import CpSummaryButton from "./buttons/myContentButtons.js";
-import MySwitch from "./switch/switch.js";
 import DropDownItem from "./dropDown/dropDown.js";
 import "./CpSummary.css";
 
@@ -16,11 +15,10 @@ class CpSummary extends React.Component {
         <DropDownItem />
         <MyHeader />
         <CpSummaryTable />
-        <MySwitch />
         <Link to="/">
         <CpSummaryButton className="detailsButton" name="Details" variant="light" />
         </Link>
-        <Link to="/">
+        <Link to="/allocation">
         <CpSummaryButton className="allocationButton" name="Allocation" variant="light" />
         </Link>
         <CpSummaryButton className="summaryButton" name="Summary" variant="blue" />

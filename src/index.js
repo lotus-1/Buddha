@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Home from "./front-end/AllContentPackages";
 import SecondPage from "./front-end/MyContentPackages";
 import CpSummary from "./front-end/CpSummary";
+import AllocationPage from "./front-end/Allocation";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -37,6 +38,8 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/secondPage" component={SecondPage} />
           <Route exact path="/cpSummary" component={CpSummary} />
+          <Route exact path="/allocation" component={AllocationPage} />
+
         </Switch>
       </Router>
       </div>
