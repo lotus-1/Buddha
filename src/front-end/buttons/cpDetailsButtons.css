@@ -1,0 +1,27 @@
+.save {
+  margin-left: 15%;
+  margin-top: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+
+.cancle {
+  margin-left: 1%;
+  margin-top: 30%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}

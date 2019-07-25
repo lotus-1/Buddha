@@ -1,7 +1,7 @@
 #bttn {
   display: inline;
-  padding: 25px;
-  margin: 10px;
+  padding: 1px;
+  margin: 50px;
   background: white;
   border: none;
   font-weight: bold;
@@ -10,8 +10,8 @@
 .summaryButton {
   color: CornflowerBlue;
   position: absolute;
-  left: 30%;
-  top: 30%;
+  left: 50%;
+  top: 120px;
   width: 9%;
   height: 8%;
   text-align: center;
@@ -28,7 +28,7 @@
 .detailsButton {
   color: gray;
   position: absolute;
-  left: 80%;
+  left: 40%;
   top: 30%;
   width: 9%;
   height: 8%;

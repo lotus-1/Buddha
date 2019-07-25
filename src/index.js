@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Home from "./front-end/AllContentPackages";
 import SecondPage from "./front-end/MyContentPackages";
 import CpSummary from "./front-end/CpSummary";
+import CpDetails from "./front-end/CpDetails";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -22,23 +23,23 @@ class App extends Component {
     const body = await response.json();
 
     if (response.status !== 200) {
-      console.log('error:', body.message);
+      console.log("error:", body.message);
       throw Error(body.message);
     }
     return body;
   };
 
-
   render() {
     return (
       <div>
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/secondPage" component={SecondPage} />
-          <Route exact path="/cpSummary" component={CpSummary} />
-        </Switch>
-      </Router>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/secondPage" component={SecondPage} />
+            <Route exact path="/cpSummary" component={CpSummary} />
+            <Route exact path="/cpDetails" component={CpDetails} />
+          </Switch>
+        </Router>
       </div>
     );
   }

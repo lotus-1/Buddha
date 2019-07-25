@@ -1,23 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Toolbar from "./navigation/navigation.js";
-import MyHeader from "./header/cpSummaryHeader.js";
-import CpSummaryTable from "./table/cpSummaryTable.js";
-import CpSummaryButton from "./buttons/cpSummaryButtons.js";
-import MySwitch from "./switch/switch.js";
-import DropDownItem from "./dropDown/dropDown.js";
-import "./CpSummary.css";
 
-class CpSummary extends React.Component {
+import Toolbar from "./navigation/navigation.js";
+import CpDetailsButton from "./buttons/cpDetailsButtons.js";
+import CpSummaryButton from "./buttons/cpSummaryButtons.js";
+import MyHeader from "./header/cpSummaryHeader.js";
+// import MySwitch from "./switch/switch.js";
+import DetailsInput from "./input/cpDetailsInput.js";
+import "./CpDetails.css";
+
+class CpDetails extends React.Component {
   render() {
     return (
       <div>
         <Toolbar />
-        <DropDownItem />
         <MyHeader />
-        <CpSummaryTable />
-        <MySwitch />
-        <Link to="/CpDetails">
+        <Link to="/cpDetails">
           <CpSummaryButton
             className="detailsButton"
             name="Details"
@@ -31,15 +29,17 @@ class CpSummary extends React.Component {
             variant="light"
           />
         </Link>
-        <Link to="/">
+        <Link to="/cpSummary">
           <CpSummaryButton
             className="summaryButton"
             name="Summary"
             variant="blue"
           />
         </Link>
+        <DetailsInput />
+        <CpDetailsButton />
       </div>
     );
   }
 }
-export default CpSummary;
+export default CpDetails;
