@@ -29,7 +29,7 @@ const toolbar = props => {
               <Link to="/secondPage">{navigatorsArray[1]}</Link>
             </th>
             <th className="navigatorRow">
-              <Link to="/cpDetails">{navigatorsArray[2]}</Link>
+              <Link to="/ContentPackageDetails">{navigatorsArray[2]}</Link>
             </th>
           </tr>
         </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Toolbar from "./navigation/navigation.js";
 import BuddhaButton from "./components/BuddhaButtons.js";
-import MyHeader from "./header/cpSummaryHeader.js";
+import BuddhaButtonWithLink from "./components/BuddhaButtonWithLink.js";
+import BuddhaHeader from "./components/BuddhaHeader.js";
 import BuddhaInput from "./components/BuddhaInput.js";
 
-class CpDetails extends React.Component {
+class ContentPackageDetails extends React.Component {
   onSubmit = e => {
     e.preventDefault();
     if (e.onClick) return this.addContentPackage();
@@ -16,16 +16,18 @@ class CpDetails extends React.Component {
     return (
       <div>
         <Toolbar />
-        <MyHeader />
-        <Link to="/cpDetails">
-          <BuddhaButton name="Details" variant="light" />
-        </Link>
-        <Link to="/cpAllocation">
-          <BuddhaButton name="Allocation" variant="info" />
-        </Link>
-        <Link to="/cpSummary">
-          <BuddhaButton name="Summary" variant="blue" />
-        </Link>
+        <BuddhaHeader header='Content Package - "CP Name"' />
+        <BuddhaButtonWithLink
+          name="Details"
+          variant="light"
+          link="/ContentPackageDetails"
+        />
+        <BuddhaButtonWithLink
+          name="Allocation"
+          variant="info"
+          link="/cpAllocation"
+        />
+        <BuddhaButtonWithLink name="Summary" variant="blue" link="/cpSummary" />
         <BuddhaButton
           name="Save"
           variant="save"
@@ -148,4 +150,4 @@ class CpDetails extends React.Component {
     );
   }
 }
-export default CpDetails;
+export default ContentPackageDetails;

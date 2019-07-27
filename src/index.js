@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Home from "./front-end/AllContentPackages";
 import SecondPage from "./front-end/MyContentPackages";
-import CpSummary from "./front-end/CpSummary";
-import CpDetails from "./front-end/CpDetailsPage";
+import ContentPackageSummaryPage from "./front-end/ContentPackageSummaryPage";
+import ContentPackageDetails from "./front-end/ContentPackageDetailsPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -36,8 +36,16 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/secondPage" component={SecondPage} />
-            <Route exact path="/cpSummary" component={CpSummary} />
-            <Route exact path="/cpDetails" component={CpDetails} />
+            <Route
+              exact
+              path="/ContentPackageSummaryPage"
+              component={ContentPackageSummaryPage}
+            />
+            <Route
+              exact
+              path="/ContentPackageDetails"
+              component={ContentPackageDetails}
+            />
           </Switch>
         </Router>
       </div>
