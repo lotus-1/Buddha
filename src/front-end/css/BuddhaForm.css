@@ -1,0 +1,45 @@
+.allContentPackageForm {
+  font-family: sans-serif;
+  color: #19334d;
+  margin-left: 16%;
+  border-style: none;
+  line-height: 0.5px;
+}
+.input1 {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+}
+.input2 {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  margin-left: 22%;
+}
+.input3 {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  margin-left: 45%;
+}
+.input4 {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  margin-left: 0%;
+  margin-top: 3.5%;
+}
+.input5 {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  margin-left: 25%;
+  margin-top: 3.5%;
+}
+.input6 {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  margin-left: 50%;
+  margin-top: 3.5%;
+}

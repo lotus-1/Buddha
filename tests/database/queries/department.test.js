@@ -1,5 +1,5 @@
 const test = require('tape');
-const runDbBuild = require('../buddha-system/src/database/db_build');
+const { runDbBuild } = require('../../../src/back-end/database/db_build.js');
 const { createDepartment } = require('../buddha-system/src/database/queries/departmentQueries');
 
 test('Testing createDepartment function', t => {

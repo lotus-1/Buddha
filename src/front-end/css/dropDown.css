@@ -79,14 +79,14 @@
   background: #efefef;
 }
 .workTeamIcon {
-  position: fixed;
+  position: absolute;
   width: 1.1%;
   filter: blur();
   margin-left: 79.6%;
   top: 2.5%;
 }
 p {
-  position: fixed;
+  position: absolute;
   margin-left: 81%;
   top: 1%;
   margin-top: 15px;

@@ -1,14 +1,15 @@
-const tape = require("tape");
-const runDBbuild = require("../database/db_build");
+const test = require("tape");
+const runDbBuild = require("../../../src/back-end/database/db_build.js");
+const addDepartmentEmployee = require("../../../src/back-end/database/queries/departmentEmployeeQueries.js");
 
+test("Testing addUser function", t => {
+  runDbBuild((err, res) => {
+    t.error(err, "No Error");
 
-test('testing addDepartmentEmployee function', t => {
-  runDBbuild((err, res) => {
-    t.error(err, 'No Error');
-        addDepartmentEmployee('department_id', 'employee_id', err, result) => {
-        if (err) console.log(err);
-        t.deepEqual(result, true, 'Retun true when adding to the table');
-        t.end();
-      };
+    addDepartmentEmployee("1", "1", (err, result) => {
+      if (err) console.log(err);
+      t.deepEqual(result, true, "Returns expected data");
+      t.end();
+    });
   });
 });

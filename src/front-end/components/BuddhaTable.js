@@ -1,7 +1,18 @@
 import React from "react";
-import "./allContentTable.css";
+import "../css/BuddhaTable.css";
 
-class ProgramTable extends React.Component {
+// const data = [{ }];
+// const columns = [
+//   {
+//     name: 'Title',
+//     selector: 'title'
+//   },
+//   {
+//     name: 'Year',
+//     selector: 'year'
+//   },
+// ];
+class BuddhaTable extends React.Component {
   render() {
     return (
       <div>
@@ -110,6 +121,5 @@ class ProgramTable extends React.Component {
       </div>
     );
   }
-}
-
-export default ProgramTable;
+};
+export default BuddhaTable;

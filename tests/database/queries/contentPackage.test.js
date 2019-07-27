@@ -1,7 +1,7 @@
 const tape = require("tape");
-const buildDB = require("../../../buddha-system/src/database/db_build.sql");
-const addContentPackage = require("../../../buddha-system/src/database/queries/addContentPackageQueries");
-const updateContentPackage = require("../../../buddha-system/src/database/queries/addContentPackageQueries");
+// const buildDB = require("../../../buddha-system/src/database/db_build.sql");
+const addContentPackage = require("../src/back-end/database/queries/contentPackageQueries.js");
+// const updateContentPackage = require("../../../buddha-system/src/database/queries/addContentPackageQueries");
 
 tape("tape is working", t => {
   t.equals(1, 1, "one equals one");
@@ -32,16 +32,16 @@ tape("add content package", t => {
   });
 });
 
-tape("update content package by updating priorty", t => {
-  buildDB((err, res) => {
-    t.error("this is an error: ", err);
-    let expected = {
-      priorty: 5
-    };
-  });
-  updateContentPackage((error, result) => {
-    if (err) console.log("this is an error: ", error);
-    t.deepEqual(result, expected, "priorty has been added");
-    t.end();
-  });
-});
+// tape("update content package by updating priorty", t => {
+//   buildDB((err, res) => {
+//     t.error("this is an error: ", err);
+//     let expected = {
+//       priorty: 5
+//     };
+//   });
+//   updateContentPackage((error, result) => {
+//     if (err) console.log("this is an error: ", error);
+//     t.deepEqual(result, expected, "priorty has been added");
+//     t.end();
+//   });
+// });

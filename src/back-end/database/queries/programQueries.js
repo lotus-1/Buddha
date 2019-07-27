@@ -2,7 +2,7 @@ const dbConnection = require("../db_connection.js");
 
 const addProgram = (data, cb) => {
   dbConnection.query(
-    `INSERT INTO work_team
+    `INSERT INTO program
     (
       programs,
       program_manager,
