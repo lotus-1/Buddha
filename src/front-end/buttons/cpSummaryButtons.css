@@ -7,29 +7,29 @@
   font-weight: bold;
   text-align: center;
 }
-.summaryButton {
+.blue {
   color: CornflowerBlue;
   position: absolute;
-  left: 30%;
-  top: 30%;
+  left: 35%;
+  top: 7%;
   width: 9%;
   height: 8%;
   text-align: center;
 }
-.allocationButton {
+.info {
   color: gray;
   position: absolute;
   left: 25%;
-  top: 30%;
+  top: 7%;
   width: 9%;
   height: 8%;
   text-align: center;
 }
-.detailsButton {
+.light {
   color: gray;
   position: absolute;
-  left: 80%;
-  top: 30%;
+  left: 15%;
+  top: 7%;
   width: 9%;
   height: 8%;
   text-align: center;

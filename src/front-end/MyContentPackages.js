@@ -17,7 +17,7 @@ class SecondPage extends React.Component {
         <MyTable />
         <BuddhaButton name="WT Allocation Summary" variant="blue" />
         <Link to="/cpSummary">
-        <BuddhaButton name="CP's Summary" variant="light"/>
+          <BuddhaButton name="CP's Summary" variant="light" />
         </Link>
         <button className="boxButton" onClick="">
           <img

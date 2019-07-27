@@ -1,16 +1,16 @@
 .cpTable {
-  margin-left: 16%;
+  margin-left: 15%;
   width: 80%;
-  margin-top: 15%;
+  margin-top: 7%;
   position: absolute;
   height: 15%;
   text-align: center;
 }
 .cpColumn {
-  color: #19334d;
+  color: gray;
   font-family: sans-serif;
   font-weight: 400;
-  background-color: #c1d0f0;
+  background-color: gray;
   text-align: center;
   height: 5%;
 }
@@ -19,10 +19,3 @@ td {
   text-align: left;
   height: 1%;
 }
-/* .tableHeader {
-color:red;
-right: 20%;
-top: 30%;
-height: 10%;
-width: 100%;
-} */

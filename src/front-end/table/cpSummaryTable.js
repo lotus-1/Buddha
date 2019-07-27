@@ -1,11 +1,9 @@
 import React from "react";
 import "./cpSummaryTable.css";
 
-
-class CpSummaryTable extends React.Component {
+class ContentPackagesSummaryTable extends React.Component {
   render() {
     return (
-      <div>
         <table className="cpTable">
           <tr className="cpColumn">
             <th> </th>
@@ -29,9 +27,8 @@ class CpSummaryTable extends React.Component {
             <td />
           </tr>
         </table>
-      </div>
     );
   }
 }
 
-export default CpSummaryTable;
+export default ContentPackagesSummaryTable;
