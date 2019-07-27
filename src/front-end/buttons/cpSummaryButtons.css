@@ -1,4 +1,4 @@
-#btn {
+#bttn {
   display: inline;
   padding: 25px;
   margin: 10px;
@@ -7,20 +7,29 @@
   font-weight: bold;
   text-align: center;
 }
-.blue {
+.summaryButton {
   color: CornflowerBlue;
   position: absolute;
-  left: 15%;
-  top: 25px;
+  left: 30%;
+  top: 30%;
   width: 9%;
   height: 8%;
   text-align: center;
 }
-.light {
+.allocationButton {
   color: gray;
   position: absolute;
   left: 25%;
-  top: 25px;
+  top: 30%;
+  width: 9%;
+  height: 8%;
+  text-align: center;
+}
+.detailsButton {
+  color: gray;
+  position: absolute;
+  left: 80%;
+  top: 30%;
   width: 9%;
   height: 8%;
   text-align: center;
