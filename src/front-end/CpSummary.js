@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Toolbar from "./navigation/navigation.js";
 import MyHeader from "./header/cpSummaryHeader.js";
 import CpSummaryTable from "./table/cpSummaryTable.js";
-import CpSummaryButton from "./buttons/myContentButtons.js";
+import CpSummaryButton from "./BuddhaButtons.js";
 import DropDownItem from "./dropDown/dropDown.js";
 import "./CpSummary.css";
 

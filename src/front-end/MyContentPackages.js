@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Toolbar from "./navigation/navigation.js";
 import MyInput from "./input/myContentInput.js";
 import MyTable from "./table/myContentTable.js";
-import BuddhaButton from "./buttons/myContentButtons.js";
+import BuddhaButton from "./BuddhaButtons.js";
 import DropDownItem from "./dropDown/dropDown.js";
 import "./MyContentPackages.css";
 

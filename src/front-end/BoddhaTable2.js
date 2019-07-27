@@ -1,18 +1,16 @@
 import React from "react";
-import "./allocationTables.css";
+import "./BoddhaTable2.css";
 
-class AllocationTable2 extends React.Component {
+
+class BoddhaTable2 extends React.Component {
   render() {
     return (
 
-        <table className="allContentTable">
+        <table className="table2">
         <tbody>
           <tr>
             <th className="checkboxcolumn" />
-            <th>WT Name</th>
-            <th>
-              Employee / SW
-            </th>
+            <th>Gap</th>
             <th>
               Q1
             </th>
@@ -35,12 +33,8 @@ class AllocationTable2 extends React.Component {
               <td />
               <td />
               <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
+          
+
             </tr>
             <tr>
               <td>
@@ -51,12 +45,9 @@ class AllocationTable2 extends React.Component {
               <td />
               <td />
               <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
+
+
+
             </tr>
             <tr>
               <td>
@@ -67,12 +58,8 @@ class AllocationTable2 extends React.Component {
               <td />
               <td />
               <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
+
+
             </tr>
             <tr>
               <td>
@@ -83,12 +70,9 @@ class AllocationTable2 extends React.Component {
               <td />
               <td />
               <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
-              <td />
+
+
+
             </tr>
           </tbody>
         </table>
@@ -99,4 +83,5 @@ class AllocationTable2 extends React.Component {
   }
 }
 
-export default AllocationTable2;
+
+export default BoddhaTable2;

@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Toolbar from "./navigation/navigation.js";
 import DropDownItem from "./dropDown/dropDown.js";
-import AllocationTabel1 from "./table/allocationTable1.js";
-import AllocationTabel2 from "./table/allocationTable2.js";
+import BoddhaTable1 from "./BuddhaTable1.js";
+import BoddhaTable2 from "./BoddhaTable2.js";
+
 import Header from "./header/header.js";
-import AllocationButtons from "./buttons/allocationButtons.js";
+import BuddhaButton from "./BuddhaButtons.js";
 
 
 class AllocationPage extends React.Component {
@@ -14,9 +16,23 @@ class AllocationPage extends React.Component {
         <Toolbar />
         <DropDownItem />
         <Header />
-        <AllocationTabel1 />
-        <AllocationTabel2 />
-        <AllocationButtons />
+        <Link to="/cpDetails">
+                  <BuddhaButton name="Details" variant="light" />
+                </Link>
+                <Link to="/cpAllocation">
+                  <BuddhaButton name="Allocation" variant="info" />
+                </Link>
+                <Link to="/cpSummary">
+                  <BuddhaButton name="Summary" variant="blue" />
+                </Link>
+        <BuddhaButton name="ADD" variant="add"/>
+        <BuddhaButton name="remove" variant="remove"/>
+        <BuddhaButton name="ADD" variant="add2"/>
+        <BuddhaButton name="remove" variant="remove2"/>
+
+
+        <BoddhaTable1 />
+        <BoddhaTable2 />
 
       </div>
     );
