@@ -1,7 +1,7 @@
 import React from "react";
-import "./header.css";
+import "../css/header.css";
 
-const header = props => {
+const header = () => {
   return (
     <h1>All Content Package</h1>
   );

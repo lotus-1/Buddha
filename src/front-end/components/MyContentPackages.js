@@ -1,10 +1,10 @@
 import React from "react";
-import Toolbar from "./navigation/navigation.js";
-import MyInput from "./input/myContentInput.js";
-import MyTable from "./table/myContentTable.js";
-import BuddhaButton from "./buttons/myContentButtons.js";
-import DropDownItem from "./dropDown/dropDown.js";
-import "./MyContentPackages.css";
+import Toolbar from "./BuddhaNavigation.js";
+import MyInput from "./myContentInput.js";
+import MyTable from "./myContentTable.js";
+import BuddhaButton from "./BuddhaButtons.js";
+import DropDownItem from "./BuddhaDropDown.js";
+import "../css/MyContentPackages.css";
 
 class SecondPage extends React.Component {
   render() {

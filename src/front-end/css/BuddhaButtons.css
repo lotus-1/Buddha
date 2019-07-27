@@ -1,6 +1,39 @@
-.add {
-  margin-left: 18%;
-  margin-top: 16%;
+.blue {
+  display: inline;
+  padding: 25px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  color: CornflowerBlue;
+  position: absolute;
+  left: 15%;
+  top: 25px;
+  width: 9%;
+  height: 8%;
+  text-align: center;
+}
+.light {
+  display: inline;
+  padding: 25px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+  position: absolute;
+  left: 25%;
+  top: 25px;
+  width: 9%;
+  height: 8%;
+  text-align: center;
+}
+.addButton {
+  position: absolute;
+  margin-left: 15.5%;
+  margin-top: 23%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -11,8 +44,10 @@
   font-size: 15px;
   border-style: none;
 }
-.remove {
-  margin-left: 1%;
+.removeButton {
+  position: absolute;
+  margin-left: 23%;
+  margin-top: 23%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -24,7 +59,9 @@
   border-style: none;
 }
 .split {
-  margin-left: 1%;
+  position: absolute;
+  margin-left: 30.5%;
+  margin-top: 23%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -36,7 +73,9 @@
   border-style: none;
 }
 .createFilter {
-  margin-left: 1%;
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 23%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -48,7 +87,9 @@
   border-style: none;
 }
 .editFilter {
-  margin-left: 1%;
+  position: absolute;
+  margin-left: 45.5%;
+  margin-top: 23%;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -70,5 +111,9 @@
   border-radius: 50%;
 }
 .boxButtonImg {
-  width: 50px;
+  position: absolute;
+  top: 86%;
+  left: 90.4%;
+  width: 60px;
+  border-style: none;
 }
