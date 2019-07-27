@@ -1,0 +1,79 @@
+.blue {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  bottom: 500px;
+  color: CornflowerBlue;
+  position: absolute;
+  left: 35%;
+  top: 7%;
+  width: 9%;
+  height: 5%;
+
+  text-align: center;
+}
+.info {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  bottom: 500px;
+  color: gray;
+  position: absolute;
+  left: 25%;
+  top: 7%;
+  width: 9%;
+  height: 5%;
+  text-align: center;
+}
+.light {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  bottom: 500px;
+  color: gray;
+  position: absolute;
+  left: 15%;
+  top: 7%;
+  width: 9%;
+  height: 5%;
+  text-align: center;
+}
+
+.save {
+  position: absolute;
+  left: 15%;
+  top: 70%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+
+.cancel {
+  position: absolute;
+  left: 22%;
+  top: 70%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}

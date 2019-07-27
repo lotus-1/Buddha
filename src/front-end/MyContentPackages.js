@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Toolbar from "./navigation/navigation.js";
 import MyInput from "./input/myContentInput.js";
 import MyTable from "./table/myContentTable.js";
-import BuddhaButton from "./buttons/myContentButtons.js";
+import BuddhaButton from "./components/BuddhaButtons";
 import DropDownItem from "./dropDown/dropDown.js";
 import "./MyContentPackages.css";
 
@@ -17,7 +17,7 @@ class SecondPage extends React.Component {
         <MyTable />
         <BuddhaButton name="WT Allocation Summary" variant="blue" />
         <Link to="/cpSummary">
-        <BuddhaButton name="CP's Summary" variant="light"/>
+          <BuddhaButton name="CP's Summary" variant="light" />
         </Link>
         <button className="boxButton" onClick="">
           <img

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Home from "./front-end/AllContentPackages";
 import SecondPage from "./front-end/MyContentPackages";
 import CpSummary from "./front-end/CpSummary";
-import CpDetails from "./front-end/CpDetails";
+import CpDetails from "./front-end/CpDetailsPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
