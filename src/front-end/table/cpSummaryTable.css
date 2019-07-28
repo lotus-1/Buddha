@@ -1,23 +1,23 @@
-.table {
-  margin-left: 14%;
+.cpTable {
+  margin-left: 16%;
   width: 80%;
-  margin-top: -35%;
+  margin-top: 15%;
   position: absolute;
-  height: 10%;
+  height: 15%;
   text-align: center;
 }
-.column {
+.cpColumn {
   color: #19334d;
   font-family: sans-serif;
   font-weight: 400;
   background-color: #c1d0f0;
   text-align: center;
-  height: 1%;
+  height: 5%;
 }
 td {
   background-color: white;
-  text-align: center;
-  height: 5%;
+  text-align: left;
+  height: 1%;
 }
 /* .tableHeader {
 color:red;

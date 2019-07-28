@@ -1,12 +1,12 @@
 import React from "react";
-import Navigation from "./BuddhaNavigation.js";
-import Header from "./BuddhaHeader.js";
-import DropDownItem from "./BuddhaDropDown.js";
-import BuddhaButtons from "./BuddhaButtons.js";
-import BuddhaImage from "./BuddhaImage.js";
-import BuddhaTable from "./BuddhaTable.js";
-import BuddhaForm from "./BuddhaForm.js";
-import "../css/AllContentPackagesPage.css";
+import Navigation from "./components/BuddhaNavigation.js";
+import Header from "./components/BuddhaHeader.js";
+import DropDownItem from "./components/BuddhaDropDown.js";
+import BuddhaButtons from "./components/BuddhaButtons.js";
+import BuddhaImage from "./components/BuddhaImage.js";
+import BuddhaTable from "./components/BuddhaTable.js";
+import BuddhaForm from "./components/BuddhaForm.js";
+import "./css/AllContentPackagesPage.css";
 
 class AllContentPackagesPage extends React.Component {
   render() {

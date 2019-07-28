@@ -1,10 +1,14 @@
 import React from "react";
-import "../css/header.css";
+import "../css/BuddhaHeader.css";
 
-const header = () => {
-  return (
-    <h1>All Content Package</h1>
-  );
-};
-
-export default header;
+class BuddhaHeader extends React.Component {
+  render() {
+    const { header } = this.props;
+    return (
+      <div>
+        <h1>{header}</h1>
+      </div>
+    );
+  }
+}
+export default BuddhaHeader;

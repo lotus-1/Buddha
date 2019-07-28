@@ -44,3 +44,108 @@
   margin-left: 48%;
   margin-top: 3.5%;
 }
+.detailsForm {
+  width: 200px;
+  font-family: sans-serif;
+  color: gray;
+  margin: 10%;
+  border-style: none;
+  line-height: 0.5px;
+}
+
+.detailsInput {
+  padding: 10px;
+  height: 100%;
+  width: 200px;
+  left: 60%;
+  position: relative;
+}
+
+.detailsLabel {
+  position: absolute;
+  top: 50%;
+}
+
+.packageId {
+  position: absolute;
+  left: 15%;
+  top: 18%;
+}
+
+.programName {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+
+.packageLevel1 {
+  position: absolute;
+  left: 15%;
+  top: 32%;
+}
+
+.packageLevel2 {
+  position: absolute;
+  left: 15%;
+  top: 39%;
+}
+
+.packageLevel3 {
+  position: absolute;
+  left: 15%;
+  top: 46%;
+}
+
+.priority {
+  position: absolute;
+  left: 15%;
+  top: 53%;
+}
+
+.relatedWT {
+  position: absolute;
+  left: 15%;
+  top: 60%;
+}
+
+.packageStatus {
+  position: absolute;
+  left: 40%;
+  top: 18%;
+}
+
+.generic {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+.year {
+  position: absolute;
+  left: 40%;
+  top: 32%;
+}
+
+.q419Flag {
+  position: absolute;
+  left: 40%;
+  top: 39%;
+}
+
+.q {
+  position: absolute;
+  left: 40%;
+  top: 46%;
+}
+
+.motivation {
+  position: absolute;
+  left: 40%;
+  top: 53%;
+}
+
+.relatedSection {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+}

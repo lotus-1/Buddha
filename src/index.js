@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import AllContentPackagesPage from "./front-end/components/AllContentPackagesPage";
+import ContentPackageSummaryPage from "./front-end/ContentPackageSummaryPage";
+import ContentPackageDetails from "./front-end/ContentPackageDetailsPage";
+import AllContentPackagesPage from "./front-end/AllContentPackagesPage";
 import SecondPage from "./front-end/components/MyContentPackages";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -30,8 +32,18 @@ class App extends Component {
       <div>
         <Router>
           <Switch>
-            <Route exact path="/" component={AllContentPackagesPage} />
             <Route exact path="/secondPage" component={SecondPage} />
+            <Route
+              exact
+              path="/ContentPackageSummaryPage"
+              component={ContentPackageSummaryPage}
+            />
+            <Route
+              exact
+              path="/ContentPackageDetails"
+              component={ContentPackageDetails}
+            />
+            <Route exact path="/" component={AllContentPackagesPage} />
           </Switch>
         </Router>
       </div>
