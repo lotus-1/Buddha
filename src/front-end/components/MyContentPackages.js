@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Toolbar from "./navigation/navigation.js";
-import MyInput from "./input/myContentInput.js";
-import MyTable from "./table/myContentTable.js";
-import BuddhaButton from "./components/BuddhaButtons";
-import DropDownItem from "./dropDown/dropDown.js";
-import "./MyContentPackages.css";
+import Toolbar from "./BuddhaNavigation.js";
+import MyInput from "./myContentInput.js";
+import MyTable from "./myContentTable.js";
+import BuddhaButtons from "./BuddhaButtons.js";
+import DropDownItem from "./BuddhaDropDown.js";
+import "../css/MyContentPackages.css";
 
 class SecondPage extends React.Component {
   render() {
@@ -15,9 +15,9 @@ class SecondPage extends React.Component {
         <DropDownItem />
         <MyInput />
         <MyTable />
-        <BuddhaButton name="WT Allocation Summary" variant="blue" />
+        <BuddhaButtons name="WT Allocation Summary" variant="blue" />
         <Link to="/cpSummary">
-          <BuddhaButton name="CP's Summary" variant="light" />
+          <BuddhaButtons name="CP's Summary" variant="light" />
         </Link>
         <button className="boxButton" onClick="">
           <img

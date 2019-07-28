@@ -1,7 +1,7 @@
 import React from "react";
 import BuddhaButton from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import "../componentCss/BuddhaButtons.css";
+import "../css/BuddhaButtons.css";
 
 class BuddhaButtonWithLink extends React.Component {
   render() {

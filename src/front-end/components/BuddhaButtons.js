@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import "../componentCss/BuddhaButtons.css";
+import "../css/BuddhaButtons.css";
 
 class BuddhaButton extends React.Component {
   onSubmit = e => {

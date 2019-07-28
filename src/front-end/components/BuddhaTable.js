@@ -1,49 +1,49 @@
 import React from "react";
-import "./allContentTable.css";
+import "../css/BuddhaTable.css";
 
-class ProgramTable extends React.Component {
+class BuddhaTable extends React.Component {
   render() {
     return (
       <div>
         <table className="allContentTable">
-        <tbody>
-          <tr>
-            <th className="checkboxcolumn" />
-            <th>Program</th>
-            <th>
-              Package <br />
-              ID
-            </th>
-            <th>
-              Package <br />
-              Level 1
-            </th>
-            <th>
-              Package <br />
-              Level 2
-            </th>
-            <th>
-              Package <br />
-              Level 3
-            </th>
-            <th>Priority</th>
-            <th>Q</th>
-            <th>Generic</th>
-            <th>Motivation</th>
-            <th>
-              Related <br />
-              WT
-            </th>
-            <th>
-              Related <br />
-              Section
-            </th>
-          </tr>
+          <tbody>
+            <tr>
+              <th className="checkboxcolumn" />
+              <th>Program</th>
+              <th>
+                Package <br />
+                ID
+              </th>
+              <th>
+                Package <br />
+                Level 1
+              </th>
+              <th>
+                Package <br />
+                Level 2
+              </th>
+              <th>
+                Package <br />
+                Level 3
+              </th>
+              <th>Priority</th>
+              <th>Q</th>
+              <th>Generic</th>
+              <th>Motivation</th>
+              <th>
+                Related <br />
+                WT
+              </th>
+              <th>
+                Related <br />
+                Section
+              </th>
+            </tr>
           </tbody>
           <tbody>
             <tr>
               <td>
-                <input className="checkbox" type="checkbox"/>
+                <input className="checkbox" type="checkbox" />
               </td>
               <td />
               <td />
@@ -111,5 +111,4 @@ class ProgramTable extends React.Component {
     );
   }
 }
-
-export default ProgramTable;
+export default BuddhaTable;

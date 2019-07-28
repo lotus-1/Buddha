@@ -23,13 +23,17 @@ a {
   font: Arial;
   line-height: 50px;
   display: block;
-  margin: 10px -215px 10px -30px;
+  margin: 10px -215px 12px -40px;
   border-left: 8px solid #e6e6ff;
   text-align: left;
   font-size: 20px;
   font-weight: 400;
   position: relative;
   padding-left: 3%;
+}
+.navigatorRow:active{
+  border-left: 8px solid blue;
+
 }
 img {
   width: 35%;

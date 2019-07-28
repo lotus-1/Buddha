@@ -1,9 +1,9 @@
 import React from "react";
-import Toolbar from "./navigation/navigation.js";
+import Toolbar from "./components/BuddhaNavigation.js";
 import BuddhaButton from "./components/BuddhaButtons.js";
 import BuddhaButtonWithLink from "./components/BuddhaButtonWithLink.js";
 import BuddhaHeader from "./components/BuddhaHeader.js";
-import BuddhaInput from "./components/BuddhaInput.js";
+import BuddhaInput from "./components/BuddhaForm.js";
 
 class ContentPackageDetails extends React.Component {
   onSubmit = e => {

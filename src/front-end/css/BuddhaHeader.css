@@ -1,8 +1,9 @@
 h1 {
   color: #0099ff;
-  padding-left: 14%;
+  margin-left: 15%;
   border-bottom: 4px solid #0099ff;
   font-family: sans-serif;
   padding-bottom: 5px;
   width: 30%;
+  margin-top: -51%;
 }

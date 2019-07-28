@@ -1,10 +1,9 @@
 import React from "react";
-import Toolbar from "./navigation/navigation.js";
+import Toolbar from "./components/BuddhaNavigation.js";
 import MyHeader from "./header/cpSummaryHeader.js";
 import CpSummaryTable from "./table/cpSummaryTable.js";
 import BuddhaButtonWithLink from "./components/BuddhaButtonWithLink.js";
-import DropDownItem from "./dropDown/dropDown.js";
-import "./CpSummary.css";
+import DropDownItem from "./components/BuddhaDropDown.js";
 
 class ContentPackageSummaryPage extends React.Component {
   render() {

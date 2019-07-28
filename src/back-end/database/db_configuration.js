@@ -22,7 +22,7 @@ const options = {
   password: password
 };
 
-const sslEnabled = ({host}) => host !== 'localhost' || host !== 127.0.0.1;
+const sslEnabled = ({host}) => { host !== 'localhost' || host !== 127.0.0.1 };
 options.ssl = sslEnabled(options);
 
 module.exports = new Pool(options);

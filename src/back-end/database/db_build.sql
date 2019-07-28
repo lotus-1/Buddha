@@ -44,12 +44,12 @@ CREATE TABLE department (
 );
 
 CREATE TABLE employee (
-  department_id SERIAL PRIMARY KEY,
+  employee_idSERIAL PRIMARY KEY,
   lab TEXT NOT NULL,
   section TEXT NOT NULL,
+  department_id INTEGER UNIQUE NOT NULL,
   department TEXT NOT NULL,
   cost_center INTEGER NOT NULL,
-  employee_id INTEGER UNIQUE NOT NULL,
   employee_name TEXT NOT NULL,
   employee_percent_job FLOAT CHECK(employee_percent_job BETWEEN 0 AND 100),
   resource_type TEXT NOT NULL,

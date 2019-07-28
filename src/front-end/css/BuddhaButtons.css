@@ -1,0 +1,167 @@
+.blue {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  bottom: 500px;
+  color: CornflowerBlue;
+  position: absolute;
+  left: 35%;
+  top: 7%;
+  width: 9%;
+  height: 5%;
+
+  text-align: center;
+}
+.info {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  bottom: 500px;
+  color: gray;
+  position: absolute;
+  left: 25%;
+  top: 7%;
+  width: 9%;
+  height: 5%;
+  text-align: center;
+}
+.light {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  bottom: 500px;
+  color: gray;
+  position: absolute;
+  left: 15%;
+  top: 7%;
+  width: 9%;
+  height: 5%;
+  text-align: center;
+}
+
+.save {
+  position: absolute;
+  left: 15%;
+  top: 70%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+
+.cancel {
+  position: absolute;
+  left: 22%;
+  top: 70%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+
+.addButton {
+  position: absolute;
+  margin-left: 15.5%;
+  margin-top: 23%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.removeButton {
+  position: absolute;
+  margin-left: 23%;
+  margin-top: 23%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.split {
+  position: absolute;
+  margin-left: 30.5%;
+  margin-top: 23%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.createFilter {
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 23%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.editFilter {
+  position: absolute;
+  margin-left: 45.5%;
+  margin-top: 23%;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+  background-color: #19334d;
+  color: white;
+  font: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  border-style: none;
+}
+.boxButtonSide {
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  width: 70px;
+  height: 70px;
+  background-color: #19334d;
+  border-style: none;
+  border-radius: 50%;
+}
+.boxButtonImg {
+  position: absolute;
+  top: 86%;
+  left: 90.4%;
+  width: 60px;
+  border-style: none;
+}

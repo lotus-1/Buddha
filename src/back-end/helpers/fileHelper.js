@@ -1,10 +1,10 @@
-const body = require("body-parser");
+// const body = require("body-parser");
 
 require("dotenv").config();
 
 const filePath = process.env.excel_file_path;
 
-const  excelToJson() = require('xlsx-to-json');
+const  excelToJson = require('xlsx-to-json');
    excelToJson({
  input: filePath,
  output: "output.json",

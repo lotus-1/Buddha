@@ -1,5 +1,5 @@
 import React from "react";
-import "../componentCss/BuddhaHeader.css";
+import "../css/BuddhaHeader.css";
 
 class BuddhaHeader extends React.Component {
   render() {
