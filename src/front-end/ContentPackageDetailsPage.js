@@ -7,6 +7,7 @@ import BuddhaInput from "./components/BuddhaInput.js";
 
 class ContentPackageDetails extends React.Component {
   onSubmit = e => {
+    console.log("Button Clicked !");
     e.preventDefault();
     if (e.onClick) return this.addContentPackage();
     console.log(this.state);
@@ -28,12 +29,8 @@ class ContentPackageDetails extends React.Component {
           link="/cpAllocation"
         />
         <BuddhaButtonWithLink name="Summary" variant="blue" link="/cpSummary" />
-        <BuddhaButton
-          name="Save"
-          variant="save"
-          onClick={e => this.onSubmit(e)}
-        />
-        <BuddhaButton name="Cancle" variant="cancel" onClick="" />
+        <BuddhaButton name="Save" variant="save" onClick={this.onSubmit} />
+        <BuddhaButton name="Cancle" variant="cancel" onClick={this.onSubmit} />
         <BuddhaInput
           formVariant="detailsForm"
           labelInputVariant="packageId"
